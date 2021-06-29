@@ -1,4 +1,4 @@
-package com.effx.springtest2.Parser;
+package com.effx.Schoolmeal.Parser;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -30,8 +30,7 @@ public class JsoupParser {
             cal.setTime(date);
             int dayNum = cal.get(Calendar.DAY_OF_WEEK) + 1;
             Elements today_meal_html = doc.select("table > tbody > tr:nth-child(2) > td:nth-child(" + dayNum + ")");
-            String[] today_meals = today_meal_html.html().replaceAll("<br>", "\n").split("\n");
-            return today_meals;
+            return today_meal_html.html().replaceAll("<br>", "\n").split("\n");
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }

@@ -1,4 +1,4 @@
-package com.effx.springtest2.dto;
+package com.effx.Schoolmeal.dto;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

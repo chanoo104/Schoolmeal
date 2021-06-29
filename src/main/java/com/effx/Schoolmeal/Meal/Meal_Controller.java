@@ -1,6 +1,6 @@
-package com.effx.springtest2.Meal;
+package com.effx.Schoolmeal.Meal;
 
-import com.effx.springtest2.Parser.JsoupParser;
+import com.effx.Schoolmeal.Parser.JsoupParser;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
