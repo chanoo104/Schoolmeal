@@ -1,9 +1,6 @@
 package com.effx.Schoolmeal.Meal;
 
-import com.effx.Schoolmeal.ErrorResponse;
-import com.effx.Schoolmeal.Parser.JsoupParser;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
