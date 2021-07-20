@@ -22,7 +22,6 @@ public class JsoupParser {
                     "&schYmd=" + schYmd;
 
             Document doc = Jsoup.connect(url).get();
-
             System.out.println(url);
             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy.MM.dd");
             Date date = dateFormat.parse(schYmd);
