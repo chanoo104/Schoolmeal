@@ -12,9 +12,9 @@ import java.util.Date;
 
 public class JsoupParser {
 
-    public String[] getMeal(String schulCode, String schulCrseScCode, String schulKndScCode, String schMmealScCode, String schYmd) {
+    public String[] getMeal(String region, String schulCode, String schulCrseScCode, String schulKndScCode, String schMmealScCode, String schYmd) {
         try {
-            String url = "http://stu.ice.go.kr/sts_sci_md01_001.do" +
+            String url = "http://stu." + region + ".go.kr/sts_sci_md01_001.do" +
                     "?schulCode=" + schulCode +
                     "&schulCrseScCode=" + schulCrseScCode +
                     "&schulKndScCode=" + schulKndScCode +
